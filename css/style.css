@@ -1,5 +1,5 @@
 body {
-  max-width: 500px;
+  max-width: 400px;
   margin: auto;
   text-align: center;
   font-family: "Montserrat";
@@ -26,7 +26,7 @@ h2 {
 
 .fonctionnement ul li {
   display: flex;
-  height: 60px;
+  height: 55px;
   background-color: #f0f0f0;
   border-radius: 25px;
   margin-bottom: 10px;
@@ -34,13 +34,39 @@ h2 {
 }
 
 .dot {
-  height: 20px;
-  width: 20px;
-  border-radius: 20px;
+  height: 25px;
+  width: 25px;
+  border-radius: 25px;
   background-color: #9356DC;
   color: white;
   position: relative;
   right: 5px;
+}
+
+.restaurant__picture-img {
+  width: 100%;
+}
+
+.restaurant__picture {
+  margin: 0px;
+  height: 75%;
+  overflow: hidden;
+}
+
+.restaurants {
+  background-color: #f0f0f0;
+  justify-content: center;
+}
+
+.restaurant {
+  border-radius: 25px;
+  overflow: hidden;
+  background-color: white;
+  height: 250px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 85%;
 }
 
 /*# sourceMappingURL=style.css.map */
