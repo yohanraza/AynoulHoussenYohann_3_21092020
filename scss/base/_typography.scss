@@ -3,9 +3,14 @@
     src: url("../src/Shrikhand-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Roboto";
+    src: url("../src/Roboto-Black.ttf")
+}
+
 body {
     max-width: 400px;
     margin: auto;
     text-align: center;
-    font-family: 'Montserrat';
+    font-family: "Roboto";
 }
