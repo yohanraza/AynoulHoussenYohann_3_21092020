@@ -53,4 +53,24 @@ h2 {
     margin-right: auto;
     margin-left: auto;
     width: 85%;
+    position: relative;
+    .logowrapper {
+        position: absolute;
+        right: 25px;
+        bottom: 30px;
+        .far {
+            font-size: 30px;
+            color: rgb(153, 153, 153);
+        }
+    }
+    h3 {
+        margin: 0;
+        text-align: left;
+        width: 75%;
+    }
+    h4 {
+        margin: 0;
+        text-align: left;
+        width: 75%;
+    }
 }

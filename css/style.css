@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Shrikhand";
+  src: url("../src/Shrikhand-Regular.ttf");
+}
 body {
   max-width: 400px;
   margin: auto;
@@ -67,6 +71,46 @@ h2 {
   margin-right: auto;
   margin-left: auto;
   width: 85%;
+  position: relative;
+}
+.restaurant .logowrapper {
+  position: absolute;
+  right: 25px;
+  bottom: 30px;
+}
+.restaurant .logowrapper .far {
+  font-size: 30px;
+  color: #999999;
+}
+.restaurant h3 {
+  margin: 0;
+  text-align: left;
+  width: 75%;
+}
+.restaurant h4 {
+  margin: 0;
+  text-align: left;
+  width: 75%;
+}
+
+footer {
+  background-color: #333131;
+  color: white;
+  text-align: left;
+}
+footer h2 {
+  font-family: "Shrikhand";
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+footer ul {
+  margin-left: 5px;
+  padding-left: 0;
+}
+footer li {
+  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */
