@@ -3,22 +3,36 @@
   src: url("../src/Shrikhand-Regular.ttf");
 }
 @font-face {
-  font-family: "Roboto";
-  src: url("../src/Roboto-Black.ttf");
+  font-family: "Roboto-Medium";
+  src: url("../src/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "Roboto-Thin";
+  src: url("../src/Roboto-Thin.ttf");
+}
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("../src/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../src/Roboto-Regular.ttf");
 }
 body {
   max-width: 400px;
   margin: auto;
   text-align: center;
-  font-family: "Roboto";
+  font-family: "Roboto-Medium";
 }
 
 .button--explorer {
   height: 50px;
-  width: 200px;
+  width: 230px;
   border-radius: 50px;
   background-color: #9356DC;
   color: white;
+  font-family: "Roboto-medium";
+  font-size: 15px;
 }
 
 header h1 {
@@ -27,33 +41,56 @@ header h1 {
 }
 
 .localisation {
-  height: 600px;
+  height: 360px;
   justify-content: center;
   background-color: #f6f6f6;
   margin: 0px;
+  font-size: 20px;
+}
+.localisation h2 {
+  padding-top: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: center;
+  margin-left: 0;
+}
+.localisation p {
+  font-family: "Roboto-Regular";
+  color: #6b6b6b;
 }
 
 h2 {
-  justify-content: start;
+  text-align: start;
+  margin-left: 30px;
 }
 
 .fonctionnement ul li {
   display: flex;
-  height: 55px;
+  height: 50px;
   background-color: #f0f0f0;
   border-radius: 25px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   padding-top: 25px;
+}
+.fonctionnement ul li i {
+  margin-right: 15px;
+  margin-left: 15px;
+  padding-top: 5px;
+}
+
+.listcomp {
+  padding-top: 4px;
 }
 
 .dot {
-  height: 25px;
+  height: 23px;
   width: 25px;
   border-radius: 25px;
   background-color: #9356DC;
   color: white;
   position: relative;
-  right: 5px;
+  right: 10px;
+  padding-top: 3px;
 }
 
 .restaurant__picture-img {
@@ -81,6 +118,7 @@ h2 {
   margin-left: auto;
   width: 85%;
   position: relative;
+  text-decoration: none;
 }
 .restaurant .logowrapper {
   position: absolute;
@@ -100,20 +138,29 @@ h2 {
   margin: 0;
   text-align: left;
   width: 75%;
+  font-family: "Roboto-Light";
+  color: #6d6d6d;
 }
 
 footer {
   background-color: #333131;
   color: white;
   text-align: left;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-bottom: 25px;
 }
 footer h2 {
   font-family: "Shrikhand";
   font-weight: 200;
+  margin-top: 0;
+  margin-left: 0;
+  font-size: 20px;
 }
 footer a {
   text-decoration: none;
   color: white;
+  font-family: "Roboto-Regular";
 }
 footer ul {
   margin-left: 5px;
@@ -121,6 +168,10 @@ footer ul {
 }
 footer li {
   list-style: none;
+  margin-bottom: 10px;
+}
+footer i {
+  margin-right: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

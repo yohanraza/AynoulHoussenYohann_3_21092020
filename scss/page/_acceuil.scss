@@ -1,32 +1,55 @@
 .localisation {
-    height: 600px;
+    height: 360px;
     justify-content: center;
     background-color: rgb(246, 246, 246);
     margin: 0px;
+    font-size: 20px;
+    h2 {
+        padding-top: 60px;
+        padding-left:30px;
+        padding-right: 30px;
+        text-align: center;
+        margin-left: 0;
+    }
+    p {
+        font-family: "Roboto-Regular";
+        color: rgb(107, 107, 107);
+    }
 
 }
 
 h2 {
-    justify-content: start;
+    text-align: start;
+    margin-left: 30px;
 }
 
 .fonctionnement ul li {
     display: flex;
-    height: 55px;
+    height: 50px;
     background-color: rgb(240, 240, 240);
     border-radius: 25px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding-top: 25px;
+    i {
+        margin-right: 15px;
+        margin-left: 15px;
+        padding-top: 5px;
+    }
+}
+
+.listcomp {
+    padding-top: 4px;
 }
 
 .dot {
-    height: 25px;
+    height: 23px;
     width: 25px;
     border-radius: 25px;
     background-color: #9356DC;
     color: white;
     position: relative;
-    right: 5px;
+    right: 10px;
+    padding-top: 3px;
 }
 
 .restaurant__picture-img {
@@ -54,6 +77,8 @@ h2 {
     margin-left: auto;
     width: 85%;
     position: relative;
+    text-decoration: none;
+    
     .logowrapper {
         position: absolute;
         right: 25px;
@@ -72,5 +97,7 @@ h2 {
         margin: 0;
         text-align: left;
         width: 75%;
+        font-family: "Roboto-Light";
+        color: rgb(109, 109, 109);
     }
 }
