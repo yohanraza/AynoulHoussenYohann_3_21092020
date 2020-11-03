@@ -29,10 +29,24 @@ body {
   height: 50px;
   width: 230px;
   border-radius: 50px;
-  background-color: #9356DC;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
   font-family: "Roboto-medium";
   font-size: 15px;
+  border: none;
+  box-shadow: 2px 2px 13px #bebebe;
+}
+
+.button--commander {
+  height: 45px;
+  width: 200px;
+  border-radius: 50px;
+  background: linear-gradient(to bottom right, #FF79DA, #9356DC);
+  color: white;
+  font-family: "Roboto-medium";
+  font-size: 15px;
+  border: none;
+  box-shadow: 2px 2px 13px #bebebe;
 }
 
 header h1 {
@@ -64,25 +78,24 @@ h2 {
   margin-left: 30px;
 }
 
-.fonctionnement ul li {
+.fonctionnement li {
   display: flex;
   height: 50px;
   background-color: #f0f0f0;
   border-radius: 25px;
   margin-bottom: 20px;
   padding-top: 25px;
+  box-shadow: 2px 2px 13px #bebebe;
 }
-.fonctionnement ul li i {
+.fonctionnement li i {
   margin-right: 15px;
   margin-left: 15px;
   padding-top: 5px;
 }
-
-.listcomp {
+.fonctionnement__step {
   padding-top: 4px;
 }
-
-.dot {
+.fonctionnement__dot {
   height: 23px;
   width: 25px;
   border-radius: 25px;
@@ -119,6 +132,7 @@ h2 {
   width: 85%;
   position: relative;
   text-decoration: none;
+  box-shadow: 2px 2px 13px #bebebe;
 }
 .restaurant .logowrapper {
   position: absolute;
@@ -172,6 +186,58 @@ footer li {
 }
 footer i {
   margin-right: 10px;
+}
+
+.menutitle {
+  text-align: start;
+  margin-left: 10px;
+  font-family: "Shrikhand";
+}
+
+.menupage {
+  background-color: #f0f0f0;
+}
+
+.step {
+  text-align: start;
+  background-color: #f0f0f0;
+}
+.step h3 {
+  text-transform: uppercase;
+  font-family: "Roboto-Light";
+  margin-top: 0;
+  margin-left: 17px;
+}
+
+.item {
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  height: 65px;
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  grid-template-rows: auto;
+  font-family: "Roboto-Medium";
+  box-shadow: 2px 2px 13px #bebebe;
+}
+.item__name {
+  margin: 10px 0px 0px 10px;
+  grid-column: 1;
+}
+.item__price {
+  color: black;
+  grid-column: 2;
+  grid-row: 2;
+  margin: 0px 0px 0px 20px;
+}
+.item__name--breakline {
+  font-family: "Roboto-Light";
+  margin: 0px 0px 10px 10px;
+  grid-column: 1;
+  grid-row: 2;
 }
 
 /*# sourceMappingURL=style.css.map */

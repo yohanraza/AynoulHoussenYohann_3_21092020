@@ -1,0 +1,51 @@
+.menutitle {
+    text-align: start;
+    margin-left: 10px;
+    font-family: "Shrikhand";
+}
+
+.menupage {
+    background-color: rgb(240, 240, 240);
+}
+
+.step {
+    text-align: start;
+    background-color: rgb(240, 240, 240);
+    h3 {
+        text-transform: uppercase;
+        font-family: "Roboto-Light";
+        margin-top: 0;
+        margin-left: 17px;
+    }
+}
+
+.item  {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    position: relative;
+    height: 65px;
+    display: grid;
+    grid-template-columns: 5fr 1fr;
+    grid-template-rows: auto;
+    font-family: "Roboto-Medium";
+    box-shadow: 2px 2px 13px rgb(190, 190, 190);
+    &__name {
+        margin:10px 0px 0px 10px;
+        grid-column: 1;
+    }
+    &__price {
+        color: black;
+        grid-column: 2;
+        grid-row: 2;
+        margin:0px 0px 0px 20px;
+    }
+    &__name--breakline {
+        font-family: "Roboto-Light";
+        margin:0px 0px 10px 10px;
+        grid-column: 1;
+        grid-row: 2;
+    }
+}

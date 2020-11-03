@@ -23,34 +23,38 @@ h2 {
     margin-left: 30px;
 }
 
-.fonctionnement ul li {
-    display: flex;
-    height: 50px;
-    background-color: rgb(240, 240, 240);
-    border-radius: 25px;
-    margin-bottom: 20px;
-    padding-top: 25px;
-    i {
-        margin-right: 15px;
-        margin-left: 15px;
-        padding-top: 5px;
+.fonctionnement {
+    li {
+        display: flex;
+        height: 50px;
+        background-color: rgb(240, 240, 240);
+        border-radius: 25px;
+        margin-bottom: 20px;
+        padding-top: 25px;
+        box-shadow: 2px 2px 13px rgb(190, 190, 190);
+        i {
+            margin-right: 15px;
+            margin-left: 15px;
+            padding-top: 5px;
+        }
+    }
+    &__step {
+        padding-top: 4px;
+    }
+    
+    &__dot {
+        height: 23px;
+        width: 25px;
+        border-radius: 25px;
+        background-color: #9356DC;
+        color: white;
+        position: relative;
+        right: 10px;
+        padding-top: 3px;
     }
 }
 
-.listcomp {
-    padding-top: 4px;
-}
 
-.dot {
-    height: 23px;
-    width: 25px;
-    border-radius: 25px;
-    background-color: #9356DC;
-    color: white;
-    position: relative;
-    right: 10px;
-    padding-top: 3px;
-}
 
 .restaurant__picture-img {
     width: 100%;
@@ -78,6 +82,7 @@ h2 {
     width: 85%;
     position: relative;
     text-decoration: none;
+    box-shadow: 2px 2px 13px rgb(190, 190, 190);
     
     .logowrapper {
         position: absolute;
