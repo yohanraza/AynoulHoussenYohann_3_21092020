@@ -222,6 +222,16 @@ footer i {
   grid-template-rows: auto;
   font-family: "Roboto-Medium";
   box-shadow: 2px 2px 13px #bebebe;
+  overflow: hidden;
+}
+.item:hover > .item__animation {
+  transform: translateX(-65px);
+}
+.item:hover > .item__price {
+  transform: translateX(-65px);
+}
+.item:hover .item__animation--logo {
+  transform: rotate(0deg);
 }
 .item__name {
   margin: 10px 0px 0px 10px;
@@ -232,12 +242,30 @@ footer i {
   grid-column: 2;
   grid-row: 2;
   margin: 0px 0px 0px 20px;
+  transition: transform 500ms;
 }
 .item__name--breakline {
   font-family: "Roboto-Light";
   margin: 0px 0px 10px 10px;
   grid-column: 1;
   grid-row: 2;
+}
+.item__animation {
+  height: 65px;
+  width: 65px;
+  background-color: #5ed499;
+  position: absolute;
+  right: -65px;
+  transition: transform 500ms;
+}
+.item__animation--logo {
+  color: #dfdede;
+  font-size: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-left: 20px;
+  transform: rotate(-270deg);
+  transition: transform 500ms;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -32,6 +32,16 @@
     grid-template-rows: auto;
     font-family: "Roboto-Medium";
     box-shadow: 2px 2px 13px rgb(190, 190, 190);
+    overflow: hidden;
+    &:hover > &__animation {
+        transform: translateX(-65px);
+    }
+    &:hover > &__price {
+        transform: translateX(-65px);
+    }
+    &:hover  &__animation--logo {
+        transform: rotate(0deg);
+    }
     &__name {
         margin:10px 0px 0px 10px;
         grid-column: 1;
@@ -41,11 +51,29 @@
         grid-column: 2;
         grid-row: 2;
         margin:0px 0px 0px 20px;
+        transition: transform 500ms;
     }
     &__name--breakline {
         font-family: "Roboto-Light";
         margin:0px 0px 10px 10px;
         grid-column: 1;
         grid-row: 2;
+    }
+    &__animation {
+        height: 65px;
+        width: 65px;
+        background-color: rgb(94, 212, 153);
+        position: absolute;
+        right: -65px;
+        transition: transform 500ms;
+    }
+    &__animation--logo {
+        color: rgb(223, 222, 222);
+        font-size: 20px;
+        display: inline-block;
+        margin-top: 20px;
+        margin-left: 20px;
+        transform: rotate(-270deg);
+        transition: transform 500ms;
     }
 }
