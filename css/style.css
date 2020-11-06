@@ -19,7 +19,7 @@
   src: url("../src/Roboto-Regular.ttf");
 }
 body {
-  max-width: 400px;
+  width: 400px;
   margin: auto;
   text-align: center;
   font-family: "Roboto-Medium";
@@ -220,6 +220,10 @@ footer i {
 
 .menupage {
   background-color: #f0f0f0;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top-left-radius: 35px;
+  border-top-right-radius: 35px;
 }
 
 .step {
