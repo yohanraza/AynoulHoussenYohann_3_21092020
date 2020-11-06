@@ -18,12 +18,12 @@
 
 }
 .curent_loc {
-    height: 40px;
-    background-color: rgb(216, 216, 216);
+    height: 35px;
+    background-color: rgb(230, 230, 230);
     padding-top: 17px;
     color: rgb(77, 77, 77);
     font-size: 16px;
-    box-shadow: inset 1px 17px 3px -12px #c7c7c7;
+    box-shadow: inset 1px 17px 3px -12px #dadada;
     .fas {
         margin-right: 10px;
     }
@@ -35,12 +35,15 @@ h2 {
 }
 
 .fonctionnement {
+    h2 {
+        margin-bottom: 30px;
+    }
     li {
         display: flex;
         height: 50px;
         background-color: rgb(240, 240, 240);
         border-radius: 25px;
-        margin-bottom: 20px;
+        margin-bottom: 27px;
         padding-top: 25px;
         box-shadow: 2px 2px 13px rgb(190, 190, 190);
         i {
@@ -73,21 +76,25 @@ h2 {
 
 .restaurant__picture {
     margin: 0px;
-    height: 75%;
+    height: 70%;
     overflow: hidden;
 }
 
 .restaurants {
     background-color: rgb(240, 240, 240);
     justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 40px;
+    margin-bottom: 0;
 }
 
 .restaurant {
-    border-radius: 25px;
+    border-radius: 15px;
     overflow: hidden;
     background-color: white;
-    height: 250px;
-    margin-bottom: 10px;
+    height: 240px;
+    margin-bottom: 17px;
     margin-right: auto;
     margin-left: auto;
     width: 85%;
@@ -98,21 +105,24 @@ h2 {
     .logowrapper {
         position: absolute;
         right: 25px;
-        bottom: 30px;
+        bottom: 20px;
         .far {
-            font-size: 30px;
+            font-size: 25px;
             color: rgb(153, 153, 153);
         }
     }
     h3 {
-        margin: 0;
+        margin: 10px 0 5px 15px;
         text-align: left;
         width: 75%;
+        font-size: 17px;
+        text-decoration: none;
     }
     h4 {
-        margin: 0;
+        margin: 00 0 0 15px;
         text-align: left;
         width: 75%;
+        font-size: 15px;
         font-family: "Roboto-Light";
         color: rgb(109, 109, 109);
     }

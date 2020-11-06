@@ -75,12 +75,12 @@ header h1 {
 }
 
 .curent_loc {
-  height: 40px;
-  background-color: #d8d8d8;
+  height: 35px;
+  background-color: #e6e6e6;
   padding-top: 17px;
   color: #4d4d4d;
   font-size: 16px;
-  box-shadow: inset 1px 17px 3px -12px #c7c7c7;
+  box-shadow: inset 1px 17px 3px -12px #dadada;
 }
 .curent_loc .fas {
   margin-right: 10px;
@@ -91,12 +91,15 @@ h2 {
   margin-left: 30px;
 }
 
+.fonctionnement h2 {
+  margin-bottom: 30px;
+}
 .fonctionnement li {
   display: flex;
   height: 50px;
   background-color: #f0f0f0;
   border-radius: 25px;
-  margin-bottom: 20px;
+  margin-bottom: 27px;
   padding-top: 25px;
   box-shadow: 2px 2px 13px #bebebe;
 }
@@ -125,21 +128,25 @@ h2 {
 
 .restaurant__picture {
   margin: 0px;
-  height: 75%;
+  height: 70%;
   overflow: hidden;
 }
 
 .restaurants {
   background-color: #f0f0f0;
   justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-top: 40px;
+  margin-bottom: 0;
 }
 
 .restaurant {
-  border-radius: 25px;
+  border-radius: 15px;
   overflow: hidden;
   background-color: white;
-  height: 250px;
-  margin-bottom: 10px;
+  height: 240px;
+  margin-bottom: 17px;
   margin-right: auto;
   margin-left: auto;
   width: 85%;
@@ -150,21 +157,24 @@ h2 {
 .restaurant .logowrapper {
   position: absolute;
   right: 25px;
-  bottom: 30px;
+  bottom: 20px;
 }
 .restaurant .logowrapper .far {
-  font-size: 30px;
+  font-size: 25px;
   color: #999999;
 }
 .restaurant h3 {
-  margin: 0;
+  margin: 10px 0 5px 15px;
   text-align: left;
   width: 75%;
+  font-size: 17px;
+  text-decoration: none;
 }
 .restaurant h4 {
-  margin: 0;
+  margin: 0 0 0 15px;
   text-align: left;
   width: 75%;
+  font-size: 15px;
   font-family: "Roboto-Light";
   color: #6d6d6d;
 }
@@ -176,6 +186,7 @@ footer {
   padding-top: 25px;
   padding-left: 25px;
   padding-bottom: 25px;
+  margin-top: 0;
 }
 footer h2 {
   font-family: "Shrikhand";
