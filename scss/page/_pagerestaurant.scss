@@ -39,7 +39,7 @@
     &:hover > &__price {
         transform: translateX(-65px);
     }
-    &:hover  &__animation--logo {
+    &:hover  &__tick {
         transform: rotate(0deg);
     }
     &__name {
@@ -53,7 +53,7 @@
         margin:0px 0px 0px 20px;
         transition: transform 500ms;
     }
-    &__name--breakline {
+    &__description {
         font-family: "Roboto-Light";
         margin:0px 0px 10px 10px;
         grid-column: 1;
@@ -67,7 +67,7 @@
         right: -65px;
         transition: transform 500ms;
     }
-    &__animation--logo {
+    &__tick {
         color: rgb(223, 222, 222);
         font-size: 20px;
         display: inline-block;

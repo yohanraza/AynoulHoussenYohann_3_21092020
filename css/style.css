@@ -230,7 +230,7 @@ footer i {
 .item:hover > .item__price {
   transform: translateX(-65px);
 }
-.item:hover .item__animation--logo {
+.item:hover .item__tick {
   transform: rotate(0deg);
 }
 .item__name {
@@ -244,7 +244,7 @@ footer i {
   margin: 0px 0px 0px 20px;
   transition: transform 500ms;
 }
-.item__name--breakline {
+.item__description {
   font-family: "Roboto-Light";
   margin: 0px 0px 10px 10px;
   grid-column: 1;
@@ -258,7 +258,7 @@ footer i {
   right: -65px;
   transition: transform 500ms;
 }
-.item__animation--logo {
+.item__tick {
   color: #dfdede;
   font-size: 20px;
   display: inline-block;
