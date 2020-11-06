@@ -5,7 +5,7 @@
     margin: 0px;
     font-size: 20px;
     h2 {
-        padding-top: 60px;
+        padding-top: 15px;
         padding-left:30px;
         padding-right: 30px;
         text-align: center;
@@ -16,6 +16,17 @@
         color: rgb(107, 107, 107);
     }
 
+}
+.curent_loc {
+    height: 40px;
+    background-color: rgb(216, 216, 216);
+    padding-top: 17px;
+    color: rgb(77, 77, 77);
+    font-size: 16px;
+    box-shadow: inset 1px 17px 3px -12px #c7c7c7;
+    .fas {
+        margin-right: 10px;
+    }
 }
 
 h2 {

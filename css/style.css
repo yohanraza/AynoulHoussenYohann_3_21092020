@@ -52,6 +52,7 @@ body {
 header h1 {
   font-family: "Shrikhand";
   font-size: 35px;
+  margin: 10px 0 5px 0;
 }
 
 .localisation {
@@ -62,7 +63,7 @@ header h1 {
   font-size: 20px;
 }
 .localisation h2 {
-  padding-top: 60px;
+  padding-top: 15px;
   padding-left: 30px;
   padding-right: 30px;
   text-align: center;
@@ -71,6 +72,18 @@ header h1 {
 .localisation p {
   font-family: "Roboto-Regular";
   color: #6b6b6b;
+}
+
+.curent_loc {
+  height: 40px;
+  background-color: #d8d8d8;
+  padding-top: 17px;
+  color: #4d4d4d;
+  font-size: 16px;
+  box-shadow: inset 1px 17px 3px -12px #c7c7c7;
+}
+.curent_loc .fas {
+  margin-right: 10px;
 }
 
 h2 {
