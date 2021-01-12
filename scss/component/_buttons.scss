@@ -20,4 +20,20 @@
     font-size: 15px;
     border: none;
     box-shadow: 2px 2px 13px rgb(190, 190, 190);
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+
+.button__return {
+    height: 40px;
+    width: 40px;
+    border: none;
+    position: relative;
+    top: 15px;
+    left: 10px;
+    grid-column: 1;
+    background-color: rgb(255, 255, 255);
+    .fas {
+        font-size: 20px;
+    }
 }

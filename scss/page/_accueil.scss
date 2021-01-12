@@ -101,8 +101,20 @@ h2 {
     position: relative;
     text-decoration: none;
     box-shadow: 2px 2px 13px rgb(190, 190, 190);
-    
-    .logowrapper {
+    color: rgb(0, 0, 0);
+    .greenbox {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        height: 22px;
+        width: 70px;
+        color: rgb(0, 135, 102);
+        background-color: rgb(153, 226, 208);
+        font-size: 13px;
+        border-radius: 2px;
+        padding-top: 4px;
+    }
+    .logowrapper { 
         position: absolute;
         right: 25px;
         bottom: 20px;
@@ -110,7 +122,20 @@ h2 {
             font-size: 25px;
             color: rgb(153, 153, 153);
         }
+        &--hover {
+            position: absolute;
+            right: 25px;
+            bottom: 20px;
+            opacity: 0;
+            .fas {
+                font-size: 25px;
+                color: #cc39a2;
+            }
+            &:hover {
+                opacity: 1;
+            }
     }
+
     h3 {
         margin: 10px 0 5px 15px;
         text-align: left;
@@ -126,4 +151,5 @@ h2 {
         font-family: "Roboto-Light";
         color: rgb(109, 109, 109);
     }
+}
 }

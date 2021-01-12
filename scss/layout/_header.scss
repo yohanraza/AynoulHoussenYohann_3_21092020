@@ -1,7 +1,12 @@
 header {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
     h1 {
         font-family: "Shrikhand";
         font-size: 35px;
         margin: 10px 0 5px 0;
+        grid-column: 2;
+        text-align: left;
+        padding-left: 35px;
     }
 }
