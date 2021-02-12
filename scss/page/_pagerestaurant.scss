@@ -44,8 +44,6 @@
     margin-bottom: 20px;
     position: relative;
     height: 65px;
-    display: grid;
-    grid-template-columns: 5fr 1fr;
     grid-template-rows: auto;
     font-family: "Roboto-Medium";
     box-shadow: 2px 2px 13px rgb(190, 190, 190);
@@ -59,29 +57,33 @@
     &:hover  &__tick {
         transform: rotate(0deg);
     }
-    &:hover > &__description {
-        width: 250px;
+    &:hover > &__description {  
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
+        width: 180px;
+    }
+    &:hover > &__name {  
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        width: 180px;
     }
     
     &__name {
         margin:10px 0px 0px 10px;
-        grid-column: 1;
     }
     &__price {
         color: black;
-        grid-column: 2;
-        grid-row: 2;
         margin:0px 0px 0px 20px;
         transition: transform 500ms;
+        position: absolute;
+        right: 5px;
+        bottom: 10px;
     }
     &__description {
         font-family: "Roboto-Light";
-        margin:0px 0px 10px 10px;
-        grid-column: 1;
-        grid-row: 2;
+        margin:5px 0px 10px 10px;
         width: 300px;
     }
     &__animation {
@@ -90,6 +92,7 @@
         background-color: rgb(94, 212, 153);
         position: absolute;
         right: -65px;
+        top: 0px;
         transition: transform 500ms;
     }
     &__tick {

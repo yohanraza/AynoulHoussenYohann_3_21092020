@@ -306,8 +306,6 @@ footer i {
   margin-bottom: 20px;
   position: relative;
   height: 65px;
-  display: grid;
-  grid-template-columns: 5fr 1fr;
   grid-template-rows: auto;
   font-family: "Roboto-Medium";
   box-shadow: 2px 2px 13px #bebebe;
@@ -323,27 +321,31 @@ footer i {
   transform: rotate(0deg);
 }
 .item:hover > .item__description {
-  width: 250px;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  width: 180px;
+}
+.item:hover > .item__name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 180px;
 }
 .item__name {
   margin: 10px 0px 0px 10px;
-  grid-column: 1;
 }
 .item__price {
   color: black;
-  grid-column: 2;
-  grid-row: 2;
   margin: 0px 0px 0px 20px;
   transition: transform 500ms;
+  position: absolute;
+  right: 5px;
+  bottom: 10px;
 }
 .item__description {
   font-family: "Roboto-Light";
-  margin: 0px 0px 10px 10px;
-  grid-column: 1;
-  grid-row: 2;
+  margin: 5px 0px 10px 10px;
   width: 300px;
 }
 .item__animation {
@@ -352,6 +354,7 @@ footer i {
   background-color: #5ed499;
   position: absolute;
   right: -65px;
+  top: 0px;
   transition: transform 500ms;
 }
 .item__tick {
