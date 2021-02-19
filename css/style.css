@@ -49,6 +49,9 @@
   .item:nth-child(5) {
     grid-row: 3;
   }
+  .item__description {
+    font-size: 15px;
+  }
 }
 @keyframes apparition1 {
   0% {
@@ -451,6 +454,7 @@ footer i {
   font-family: "Roboto-Light";
   margin: 5px 0px 10px 10px;
   width: 300px;
+  font-size: 15px;
 }
 .item__animation {
   height: 65px;

@@ -53,6 +53,9 @@
         &:nth-child(5) {
             grid-row: 3;
         }
+        &__description {
+            font-size: 15px;
+        }
     }    
 }
 
