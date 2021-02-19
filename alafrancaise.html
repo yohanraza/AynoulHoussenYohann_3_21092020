@@ -4,32 +4,39 @@
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="./css/style.css">
   <link href="http://fr.allfont.net/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <script src="https://kit.fontawesome.com/ea2e75a39e.js" crossorigin="anonymous"></script>
   <title>Oh my Food</title>
 </head>
 <body>
   <header>
+    <button class="button__return"><i class="fas fa-arrow-left"></i></button>
     <h1>ohmyfood</h1>
   </header>
+  <figure class="pagerestaurant__picture">
+    <div class="pagerestaurant__picture--wrapper">
+    <img src="src/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="pagerestaurant__picture--img"/>
+    </div>
+  </figure>
   <div class="menupage">
-    <h2 class="menutitle">A la française</h2>
+    <h2 class="menutitle">À la française</h2>
     <div class="logowrapper"><i class="far fa-heart"></i></div>
 		<div class="logowrapper--hover"><i class="fas fa-heart"></i></div>
     <section class="step">
       <h3>Entrées</h3>
-      <article class="item">
-        <p class="item__name">Tartare de poulpe acidulé </p>
+      <article class="item item--1">
+        <p class="item__name">Tartare de poulpe acidulé</p>
         <p class="item__description">Aux zestes d'orange</p>
         <p class="item__price">25€</p>
         <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>
       </article>
-      <article class="item">
-        <p class="item__name">Velouté de légumes d'antan </p> 
+      <article class="item item--2">
+        <p class="item__name">Velouté de légumes d'antan</p> 
         <p class="item__description">Carotte, panais, topinambour</p>
         <p class="item__price">35€</p>
         <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>
       </article>
-      <article class="item">
+      <article class="item item--3">
         <p class="item__name">Soupe à l'oignon</p>
         <p class="item__description">Revisitée</p>
         <p class="item__price">20€</p>
@@ -38,19 +45,19 @@
     </section>
     <section class="step">
       <h3>Plats</h3>
-      <article class="item">
+      <article class="item item--1">
         <p class="item__name">Coquilles Saint-Jacques</p>
         <p class="item__description">Accompagnées d'une purée de panais</p>
         <p class="item__price">40€</p>
         <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article class="item">
-        <p class="item__name">Magret de canard </p>
+      <article class="item item--2">
+        <p class="item__name">Magret de canard</p>
         <p class="item__description">Et parmentier de pommes de terre</p>
         <p class="item__price">35€</p>
         <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article class="item">
+      <article class="item item--3">
         <p class="item__name">Pigeonneau d’Ille-et-Vilaine</p>
         <p class="item__description">Sur son lit de gnocchis aux légumes</p>
         <p class="item__price">44€</p>
@@ -59,19 +66,19 @@
     </section>
     <section class="step">
       <h3>Desserts</h3>
-      <article class="item">
+      <article class="item item--1">
         <p class="item__name">Pétales de violettes glacés</p>
         <p class="item__description">Et purée de noisettes</p>
         <p class="item__price">18€</p>
         <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article class="item">
+      <article class="item item--2">
         <p class="item__name">Fondant au chocolat</p>
-        <p class="item__description">Revisité</p>
+        <p class="item__description">Revisitée</p>
         <p class="item__price">22€</p>
         <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article class="item">
+      <article class="item item--3">
         <p class="item__name">Millefeuille croustillant</p>
         <p class="item__description">Myrtilles et pâte d’amande</p>
         <p class="item__price">23€</p>

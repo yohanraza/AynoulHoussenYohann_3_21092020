@@ -1,64 +1,100 @@
 <!DOCTYPE html >
 <html>
-	<head>		
-		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		<link href="http://fr.allfont.net/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
-		<title>Oh my Food</title>
-    </head>
-    <h2>La palette du goût</h2>
+<head>		
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="./css/style.css">
+  <link href="http://fr.allfont.net/allfont.css?fonts=montserrat" rel="stylesheet" type="text/css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://kit.fontawesome.com/ea2e75a39e.js" crossorigin="anonymous"></script>
+  <title>Oh my Food</title>
+</head>
+<body>
+  <header>
+    <button class="button__return"><i class="fas fa-arrow-left"></i></button>
+    <h1>ohmyfood</h1>
+  </header>
+  <figure class="pagerestaurant__picture">
+    <div class="pagerestaurant__picture--wrapper">
+    <img src="src/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="pagerestaurant__picture--img"/>
+    </div>
+  </figure>
+  <div class="menupage">
+    <h2 class="menutitle">La palette du goût</h2>
+    <div class="logowrapper"><i class="far fa-heart"></i></div>
+		<div class="logowrapper--hover"><i class="fas fa-heart"></i></div>
     <section class="step">
       <h3>Entrées</h3>
-      <article class="item">
-        <p class="item__name">Fricassé d'escargot au piment d'espelette</p>
+      <article class="item item--1">
+        <p class="item__name">Fricassée d'escargot</p>
+        <p class="item__description">Au piment d'Espelette</p>
         <p class="item__price">25€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>
       </article>
-      <article class="item">
-        <p class="item__name">VFoie gras de canard m-cuit et ses copeaux de truffe noire</p>
+      <article class="item item--2">
+        <p class="item__name">Foie gras de canard mi-cuit</p> 
+        <p class="item__description">Et ses copeaux de truffe noire</p>
         <p class="item__price">35€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>
       </article>
-      <article class="item">
-        <p class="item__name">Oeuf sur plat assaisonné à la truffe sur lit de caviar</p>
+      <article class="item item--3">
+        <p class="item__name">Oeuf au plat</p>
+        <p class="item__description">Assaisonné à la truffe sur lit de caviar</p>
         <p class="item__price">20€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>
       </article>
     </section>
     <section class="step">
       <h3>Plats</h3>
-      <article class="item">
-        <p class="item__name">Filet de boeuf aux herbes accompagnés de sa ribambelle de légumes</p>
+      <article class="item item--1">
+        <p class="item__name">Filet de boeuf aux herbes</p>
+        <p class="item__description">Accompagné de sa ribambelle de légumes</p>
         <p class="item__price">40€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article>
-        <p class="item__name">Parmentier de queue de boeuf à la truffe noire sur sa purée de panais</p>
+      <article class="item item--2">
+        <p class="item__name">Parmentier de queue de boeuf</p>
+        <p class="item__description">À la truffe noire sur sa purée de panais</p>
         <p class="item__price">35€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article>
-        <p class="item__name">Filet de turbot aux agrumes</p>
+      <article class="item item--3">
+        <p class="item__name">Filet de turbot</p>
+        <p class="item__description">Aux agrumes</p>
         <p class="item__price">44€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
     </section>
     <section class="step">
       <h3>Desserts</h3>
-      <article class="item">
-        <p class="item__name">Paris-Brest revisité</p>
+      <article class="item item--1">
+        <p class="item__name">Paris-Brest</p>
+        <p class="item__description">Revisité</p>
         <p class="item__price">18€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article>
-        <p class="item__name">Macaron au chocolat d'exeption et glace à la vanille de madagascar</p>
+      <article class="item item--2">
+        <p class="item__name">Macaron au chocolat d'exception</p>
+        <p class="item__description">Et glace à la vanille de Madagascar</p>
         <p class="item__price">22€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
-      <article class="item">
-        <p class="item__name">Mousse au chocolat au piment d'Espelette et à la truffe noire</p>
+      <article class="item item--3">
+        <p class="item__name">Mousse au chocolat</p>
+        <p class="item__description">Au piment d'Espelette et à la truffe noire</p>
         <p class="item__price">23€</p>
+        <div class="item__animation"><span class="item__tick"><i class="fas fa-check-circle"></i></span></div>      
       </article>
     </section>
     <button class="button--commander">Commander</button>
-    <footer>
-        <ul>
-            <li>Proposer un restaurant</li>
-            <li>Devenir partenaire</li>
-            <li><a href="#" target="_blank">Mentions légales</a></li>
-            <li><a href="mailto:yohan_raza@yahoo.fr">contact</a></li>
-        </ul>
-    </footer>	
-</html>
+  </div>
+  <footer>
+    <h2>OhmyFood</h2>
+    <ul>
+      <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
+      <li><i class="fas fa-handshake"></i>Devenir partenaire</li>
+      <li><a href="#" target="_blank">Mentions légales</a></li>
+      <li><a href="mailto:yohan_raza@yahoo.fr">contact</a></li>
+    </ul>
+  </footer>
+</body>	  
+</html> 

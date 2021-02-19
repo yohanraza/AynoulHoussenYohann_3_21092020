@@ -45,6 +45,7 @@ h2 {
         border-radius: 25px;
         margin-bottom: 27px;
         padding-top: 25px;
+        margin-right: 10px;
         box-shadow: 2px 2px 13px rgb(190, 190, 190);
         i {
             margin-right: 15px;
@@ -114,10 +115,12 @@ h2 {
         border-radius: 2px;
         padding-top: 4px;
     }
+    
     .logowrapper { 
         position: absolute;
         right: 25px;
         bottom: 20px;
+        height: 25px;
         .far {
             font-size: 25px;
             color: rgb(153, 153, 153);
@@ -127,6 +130,7 @@ h2 {
             right: 25px;
             bottom: 20px;
             opacity: 0;
+            height: 25px;
             .fas {
                 font-size: 25px;
                 color: #cc39a2;

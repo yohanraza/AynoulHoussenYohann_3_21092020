@@ -1,3 +1,55 @@
+@media screen and (min-width: 1000px) {
+  body {
+    max-width: 1000px;
+  }
+
+  .restaurants {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 75px 300px 300px;
+  }
+  .restaurants h2 {
+    grid-row: 1;
+    margin-left: 75px;
+  }
+  .restaurants .restaurant:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  .restaurants .restaurant:nth-child(3) {
+    grid-row: 2;
+    grid-column: 2;
+  }
+  .restaurants .restaurant:nth-child(4) {
+    grid-row: 3;
+    grid-column: 1;
+  }
+  .restaurants .restaurant:nth-child(5) {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  .restaurants a {
+    width: 350px;
+  }
+  .restaurants .restaurant {
+    width: 350px;
+  }
+
+  .step {
+    display: grid;
+  }
+  .step h3 {
+    grid-row: 1;
+  }
+
+  .item {
+    width: 315px;
+    grid-row: 2;
+  }
+  .item:nth-child(5) {
+    grid-row: 3;
+  }
+}
 @keyframes apparition1 {
   0% {
     opacity: 0;
@@ -71,7 +123,6 @@
   src: url("../src/Roboto-Regular.ttf");
 }
 body {
-  max-width: 400px;
   margin: auto;
   text-align: center;
   font-family: "Roboto-Medium";
@@ -118,16 +169,14 @@ body {
 }
 
 header {
-  display: grid;
-  grid-template-columns: 1fr 4fr;
+  display: flex;
+  flex-direction: row;
 }
 header h1 {
   font-family: "Shrikhand";
   font-size: 35px;
-  margin: 10px 0 5px 0;
-  grid-column: 2;
+  margin: auto;
   text-align: left;
-  padding-left: 35px;
 }
 
 .localisation {
@@ -176,6 +225,7 @@ h2 {
   border-radius: 25px;
   margin-bottom: 27px;
   padding-top: 25px;
+  margin-right: 10px;
   box-shadow: 2px 2px 13px #bebebe;
 }
 .fonctionnement li i {
@@ -246,6 +296,7 @@ h2 {
   position: absolute;
   right: 25px;
   bottom: 20px;
+  height: 25px;
 }
 .restaurant .logowrapper .far {
   font-size: 25px;
@@ -256,6 +307,7 @@ h2 {
   right: 25px;
   bottom: 20px;
   opacity: 0;
+  height: 25px;
 }
 .restaurant .logowrapper--hover .fas {
   font-size: 25px;
@@ -436,26 +488,26 @@ footer i {
   width: 120%;
 }
 
-.logowrapper {
+.menupage .logowrapper {
   position: absolute;
   right: 35px;
   top: 45px;
 }
-.logowrapper .far {
+.menupage .logowrapper .far {
   font-size: 25px;
   color: #999999;
 }
-.logowrapper--hover {
+.menupage .logowrapper--hover {
   position: absolute;
   right: 35px;
   top: 45px;
   opacity: 0;
 }
-.logowrapper--hover .fas {
+.menupage .logowrapper--hover .fas {
   font-size: 25px;
   color: #cc39a2;
 }
-.logowrapper--hover:hover {
+.menupage .logowrapper--hover:hover {
   opacity: 1;
 }
 
