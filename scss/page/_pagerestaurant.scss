@@ -57,13 +57,7 @@
     &:hover  &__tick {
         transform: rotate(0deg);
     }
-    &:hover > &__description {  
-        overflow: hidden;
-        text-overflow: ellipsis;
-        white-space: nowrap;
-        width: 180px;
-    }
-    &:hover > &__name {  
+    &:hover  &__description, &:hover &__name {  
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -85,8 +79,8 @@
         font-family: "Roboto-Light";
         margin:5px 0px 10px 10px;
         width: 300px;
-        font-size: 15px;
     }
+    
     &__animation {
         height: 65px;
         width: 65px;

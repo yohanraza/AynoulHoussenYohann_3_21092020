@@ -6,11 +6,11 @@
   .restaurants {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 75px 300px 300px;
+    /*  */
   }
   .restaurants h2 {
     grid-row: 1;
-    margin-left: 75px;
+    grid-column: 1/-1;
   }
   .restaurants .restaurant:nth-child(2) {
     grid-row: 2;
@@ -37,20 +37,27 @@
 
   .step {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   .step h3 {
-    grid-row: 1;
+    grid-column: 1/-1;
   }
 
-  .item {
-    width: 315px;
-    grid-row: 2;
-  }
-  .item:nth-child(5) {
-    grid-row: 3;
-  }
   .item__description {
-    font-size: 15px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width: 750px) and (max-width: 999px) {
+  .step {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .step h3 {
+    grid-column: 1/-1;
+  }
+
+  .item__description {
+    font-size: 14px;
   }
 }
 @keyframes apparition1 {
@@ -427,13 +434,7 @@ footer i {
 .item:hover .item__tick {
   transform: rotate(0deg);
 }
-.item:hover > .item__description {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  width: 180px;
-}
-.item:hover > .item__name {
+.item:hover .item__description, .item:hover .item__name {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -454,7 +455,6 @@ footer i {
   font-family: "Roboto-Light";
   margin: 5px 0px 10px 10px;
   width: 300px;
-  font-size: 15px;
 }
 .item__animation {
   height: 65px;
