@@ -213,6 +213,7 @@ body {
 }
 .button--explorer:hover {
   background: linear-gradient(to bottom right, #ffa4e5, #b784f7);
+  box-shadow: 2px 2px 13px #8c8c8c;
 }
 
 .button--commander {
@@ -230,6 +231,7 @@ body {
 }
 .button--commander:hover {
   background: linear-gradient(to bottom right, #ffa4e5, #b784f7);
+  box-shadow: 2px 2px 13px #8c8c8c;
 }
 
 .button__return {
