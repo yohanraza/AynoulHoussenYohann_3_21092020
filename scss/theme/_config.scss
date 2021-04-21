@@ -75,3 +75,22 @@
         }
     }    
 }
+
+$primarypurple: #9356DC; 
+$secondarypink: #FF79DA;
+$tertiarygreen: #99E2D0;
+
+@mixin mainbutton {
+    border-radius: 50px;
+    background: linear-gradient(to bottom right, $secondarypink, $primarypurple);
+    color: white;
+    font-family: "Roboto-medium";
+    font-size: 15px;
+    border: none;
+    box-shadow: 2px 2px 13px rgb(190, 190, 190);
+    &:hover {
+        background: linear-gradient(to bottom right, #ffa4e5, #b784f7);
+        box-shadow: 2px 2px 13px rgb(140, 140, 140)
+    }
+    
+}

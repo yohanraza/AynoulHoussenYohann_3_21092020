@@ -9,6 +9,9 @@
 		<title>Oh my Food</title>
     </head>
     <body>
+		<div id="loader">
+			<div class="spin"></div>
+		</div>
     	<header>
     		<h1>ohmyfood</h1>
         </header>
@@ -26,7 +29,7 @@
                 <li><div class="fonctionnement__dot">3</div><i class="fas fa-store"></i><div class="fonctionnement__step">Dégustez au restaurant</div></li>
             </ul>
 		</section>
-		<div class="spin"></div>
+		
     	<section class="restaurants">
             <h2>Restaurants</h2>
     		<a href="lapalettedugout.html" class="restaurant">

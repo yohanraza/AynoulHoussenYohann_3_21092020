@@ -24,4 +24,15 @@ body {
     margin: auto;
     text-align: center;
     font-family: "Roboto-Medium";
+    position: relative;
+}
+
+#loader {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(255,255,255,0.6);
+    z-index: 5;
+    animation: loader__hidden 3s forwards;
 }

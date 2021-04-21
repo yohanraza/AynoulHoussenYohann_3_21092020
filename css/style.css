@@ -157,6 +157,24 @@
     transform: rotate(360deg);
   }
 }
+@keyframes loader__hidden {
+  0% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  96% {
+    opacity: 0;
+    width: 100vw;
+    height: 100vh;
+  }
+  100% {
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+  }
+}
 .spin {
   border: 8px solid #FF79DA;
   border-radius: 50%;
@@ -198,6 +216,18 @@ body {
   margin: auto;
   text-align: center;
   font-family: "Roboto-Medium";
+  position: relative;
+}
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.6);
+  z-index: 5;
+  animation: loader__hidden 3s forwards;
 }
 
 .button--explorer {
@@ -219,6 +249,8 @@ body {
 .button--commander {
   height: 45px;
   width: 200px;
+  margin-top: 40px;
+  margin-bottom: 50px;
   border-radius: 50px;
   background: linear-gradient(to bottom right, #FF79DA, #9356DC);
   color: white;
@@ -226,8 +258,6 @@ body {
   font-size: 15px;
   border: none;
   box-shadow: 2px 2px 13px #bebebe;
-  margin-top: 40px;
-  margin-bottom: 50px;
 }
 .button--commander:hover {
   background: linear-gradient(to bottom right, #ffa4e5, #b784f7);

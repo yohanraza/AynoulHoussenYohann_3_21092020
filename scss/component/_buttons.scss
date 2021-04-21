@@ -1,35 +1,15 @@
 .button--explorer {
     height: 50px;
     width: 230px;
-    border-radius: 50px;
-    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-    color: white;
-    font-family: "Roboto-medium";
-    font-size: 15px;
-    border: none;
-    box-shadow: 2px 2px 13px rgb(190, 190, 190);
-    &:hover {
-        background: linear-gradient(to bottom right, #ffa4e5, #b784f7);
-        box-shadow: 2px 2px 13px rgb(140, 140, 140)
-    }
+    @include mainbutton;
 }
 
 .button--commander {
     height: 45px;
     width: 200px;
-    border-radius: 50px;
-    background: linear-gradient(to bottom right, #FF79DA, #9356DC);
-    color: white;
-    font-family: "Roboto-medium";
-    font-size: 15px;
-    border: none;
-    box-shadow: 2px 2px 13px rgb(190, 190, 190);
     margin-top: 40px;
     margin-bottom: 50px;
-    &:hover {
-        background: linear-gradient(to bottom right, #ffa4e5, #b784f7);
-        box-shadow: 2px 2px 13px rgb(140, 140, 140)
-    }
+    @include mainbutton;
 }
 
 .button__return {

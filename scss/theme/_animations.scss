@@ -105,12 +105,32 @@
       transform: rotate(360deg);
     }
 }
+
+@keyframes loader__hidden {
+    0% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    96% {
+        opacity: 0;
+        width: 100vw;
+        height: 100vh;
+    }
+    100% {
+        opacity: 0;
+        width: 1px;
+        height: 1px;
+    }
+}
+
 .spin {
-    border: 8px solid #FF79DA;
+    border: 8px solid $secondarypink;
     border-radius: 50%;
-    border-top: 8px solid #FF79DA;
+    border-top: 8px solid $secondarypink;
     border-right: 8px solid   rgb(230, 230, 230);
-    border-bottom: 8px solid  #9356DC;
+    border-bottom: 8px solid  $primarypurple;
     border-left: 8px solid  rgb(230, 230, 230);
     margin: auto;
     width: 25px;
