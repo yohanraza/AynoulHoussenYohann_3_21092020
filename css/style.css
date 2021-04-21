@@ -112,6 +112,68 @@
   animation: apparition3 4s ease forwards;
 }
 
+@keyframes apparition__restaurant {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes spin__hidden {
+  0% {
+    opacity: 1;
+    height: 60px;
+    width: 60px;
+    margin-top: 200px;
+  }
+  90% {
+    opacity: 1;
+    height: 60px;
+    width: 60px;
+    margin-top: 200px;
+  }
+  96% {
+    opacity: 0;
+    height: 60px;
+    width: 60px;
+    margin-top: 200px;
+  }
+  100% {
+    opacity: 0;
+    height: 1px;
+    width: 1px;
+    margin-top: 0px;
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.spin {
+  border: 8px solid #FF79DA;
+  border-radius: 50%;
+  border-top: 8px solid #FF79DA;
+  border-right: 8px solid #e6e6e6;
+  border-bottom: 8px solid #9356DC;
+  border-left: 8px solid #e6e6e6;
+  margin: auto;
+  width: 25px;
+  height: 25px;
+  animation: spin 1.5s linear infinite, spin__hidden 3s forwards;
+}
+
+.restaurants {
+  animation: apparition__restaurant 3s forwards;
+}
+
 @font-face {
   font-family: "Shrikhand";
   src: url("../src/Shrikhand-Regular.ttf");
@@ -149,6 +211,9 @@ body {
   border: none;
   box-shadow: 2px 2px 13px #bebebe;
 }
+.button--explorer:hover {
+  background: linear-gradient(to bottom right, #ffa4e5, #b784f7);
+}
 
 .button--commander {
   height: 45px;
@@ -163,6 +228,9 @@ body {
   margin-top: 40px;
   margin-bottom: 50px;
 }
+.button--commander:hover {
+  background: linear-gradient(to bottom right, #ffa4e5, #b784f7);
+}
 
 .button__return {
   height: 40px;
@@ -173,6 +241,8 @@ body {
   left: 10px;
   grid-column: 1;
   background-color: white;
+  text-decoration: none;
+  color: black;
 }
 .button__return .fas {
   font-size: 20px;
@@ -272,7 +342,7 @@ h2 {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 0;
 }
 
@@ -281,7 +351,7 @@ h2 {
   overflow: hidden;
   background-color: white;
   height: 240px;
-  margin-bottom: 17px;
+  margin-bottom: 30px;
   margin-right: auto;
   margin-left: auto;
   width: 85%;
@@ -442,6 +512,7 @@ footer i {
 }
 .item__name {
   margin: 10px 0px 0px 10px;
+  font-weight: normal;
 }
 .item__price {
   color: black;

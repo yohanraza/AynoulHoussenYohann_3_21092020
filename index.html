@@ -1,5 +1,5 @@
 <!DOCTYPE html >
-<html>
+<html lang="fr">
 	<head>		
 		<meta charset="utf-8">
 		<link rel="stylesheet" type="text/css" href="./css/style.css">
@@ -25,13 +25,14 @@
                 <li><div class="fonctionnement__dot">2</div><i class="fas fa-list-ul"></i><div class="fonctionnement__step">Composez votre menu</div></li>
                 <li><div class="fonctionnement__dot">3</div><i class="fas fa-store"></i><div class="fonctionnement__step">Dégustez au restaurant</div></li>
             </ul>
-        </section>
+		</section>
+		<div class="spin"></div>
     	<section class="restaurants">
             <h2>Restaurants</h2>
     		<a href="lapalettedugout.html" class="restaurant">
     			<article class="restaurant">
 					<figure class="restaurant__picture">
-						<img src="src/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="restaurant__picture-img"/>
+						<img src="src/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="Menu Palette du Gout" class="restaurant__picture-img"/>
 					</figure>
 					<h3 class="restaurant__name">La palette du goût</h3>
 					<div class="logowrapper"><i class="far fa-heart"></i></div>
@@ -43,7 +44,7 @@
     		<a href="lanoteenchantee.html" class="restaurant">
 				<article class="restaurant">
 					<figure class="restaurant__picture">
-						<img src="src/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" class="restaurant__picture-img"/>
+						<img src="src/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="Menu Note enchantée" class="restaurant__picture-img"/>
 					</figure>
 					<h3 class="restaurant__name">La note enchantée</h3>
 					<div class="logowrapper"><i class="far fa-heart"></i></div>
@@ -55,7 +56,7 @@
     		<a href="alafrancaise.html" class="restaurant ">
     			<article class="restaurant">
 					<figure class="restaurant__picture">
-						<img src="src/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" class="restaurant__picture-img"/>
+						<img src="src/images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" alt="Menu A la Francaise" class="restaurant__picture-img"/>
 					</figure>
 					<h3 class="restaurant__name">A la française</h3>
 					<div class="logowrapper"><i class="far fa-heart"></i></div>
@@ -66,7 +67,7 @@
     		<a href="ledelicedessens.html" class="restaurant ">
     			<article class="restaurant">
 					<figure class="restaurant__picture">
-						<img src="src/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" class="restaurant__picture-img"/>
+						<img src="src/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="Menu Délice des papilles" class="restaurant__picture-img"/>
 					</figure>
 					<h3 class="restaurant__name">Le délice des sens</h3>
 					<div class="logowrapper"><i class="far fa-heart"></i></div>
