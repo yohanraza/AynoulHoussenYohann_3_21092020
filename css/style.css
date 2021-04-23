@@ -340,6 +340,12 @@ h2 {
   margin-right: 10px;
   box-shadow: 2px 2px 13px #bebebe;
 }
+.fonctionnement li:hover {
+  background-color: #f5edff;
+}
+.fonctionnement li:hover .fas {
+  color: #9356DC;
+}
 .fonctionnement li i {
   margin-right: 15px;
   margin-left: 15px;
@@ -418,15 +424,18 @@ h2 {
   position: absolute;
   right: 25px;
   bottom: 20px;
-  opacity: 0;
+  opacity: 1;
   height: 25px;
+  overflow: hidden;
 }
 .restaurant .logowrapper--hover .fas {
   font-size: 25px;
   color: #cc39a2;
+  transform: translateY(-25px);
+  transition: transform 500ms;
 }
-.restaurant .logowrapper--hover:hover {
-  opacity: 1;
+.restaurant .logowrapper--hover:hover .fas {
+  transform: translateY(0px);
 }
 .restaurant h3 {
   margin: 10px 0 5px 15px;
@@ -569,7 +578,7 @@ footer i {
   transition: transform 500ms;
 }
 .item__tick {
-  color: #dfdede;
+  color: snow;
   font-size: 20px;
   display: inline-block;
   margin-top: 20px;
@@ -608,14 +617,18 @@ footer i {
   position: absolute;
   right: 35px;
   top: 45px;
-  opacity: 0;
+  opacity: 1;
+  height: 25px;
+  overflow: hidden;
 }
 .menupage .logowrapper--hover .fas {
   font-size: 25px;
   color: #cc39a2;
+  transform: translateY(-25px);
+  transition: transform 500ms;
 }
-.menupage .logowrapper--hover:hover {
-  opacity: 1;
+.menupage .logowrapper--hover:hover .fas {
+  transform: translateY(0px);
 }
 
 /*# sourceMappingURL=style.css.map */

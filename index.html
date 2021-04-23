@@ -15,8 +15,8 @@
     	<header>
     		<h1>ohmyfood</h1>
         </header>
-        <section class=localisation>
-            <div class=curent_loc><i class="fas fa-map-marker-alt"></i>Paris, Belleville</div>
+        <section class="localisation">
+            <div class="curent_loc"><i class="fas fa-map-marker-alt"></i>Paris, Belleville</div>
             <h2>Réservez le menu qui vous convient</h2>
             <p>Découvrez des restaurants d'exeption, selectionnés par nos soins.</p>
             <button class="button--explorer">Explorez nos restaurants</button>
