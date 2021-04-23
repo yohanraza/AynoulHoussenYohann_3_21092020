@@ -431,11 +431,11 @@ h2 {
 .restaurant .logowrapper--hover .fas {
   font-size: 25px;
   color: #cc39a2;
-  transform: translateY(-25px);
+  transform: scale(0);
   transition: transform 500ms;
 }
 .restaurant .logowrapper--hover:hover .fas {
-  transform: translateY(0px);
+  transform: scale(1);
 }
 .restaurant h3 {
   margin: 10px 0 5px 15px;
@@ -624,11 +624,11 @@ footer i {
 .menupage .logowrapper--hover .fas {
   font-size: 25px;
   color: #cc39a2;
-  transform: translateY(-25px);
+  transform: scale(0);
   transition: transform 500ms;
 }
 .menupage .logowrapper--hover:hover .fas {
-  transform: translateY(0px);
+  transform: scale(1);
 }
 
 /*# sourceMappingURL=style.css.map */

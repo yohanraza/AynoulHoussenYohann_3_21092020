@@ -144,11 +144,11 @@ h2 {
             .fas {
                 font-size: 25px;
                 color: #cc39a2;
-                transform: translateY(-25px);
+                transform: scale(0);
                 transition: transform 500ms;
             }
             &:hover .fas {
-                transform: translateY(0px);
+                transform: scale(1);
 
             }
         }    
